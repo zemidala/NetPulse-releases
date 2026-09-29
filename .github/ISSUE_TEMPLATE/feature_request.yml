@@ -1,0 +1,37 @@
+name: Feature request / Предложение
+description: Suggest a new feature or an improvement. / Предложите новую возможность или улучшение.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Not sure yet? Discuss the idea first in [Discussions → Ideas](https://github.com/zemidala/NetPulse-releases/discussions/categories/ideas).
+        Не уверены? Сначала обсудите идею в [Discussions → Ideas](https://github.com/zemidala/NetPulse-releases/discussions/categories/ideas).
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does it solve? / Какую задачу решает?
+      placeholder: "I want to see ... because ... / Хочу видеть ..., потому что ..."
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: How should it work? / Как это должно работать?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area / Область
+      options:
+        - Chart / График
+        - Diagnosis and outages / Диагностика и обрывы
+        - Layouts, themes, settings / Шаблоны, темы, настройки
+        - Tray, notifications, overlay / Трей, уведомления, оверлей
+        - Other / Другое
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else? / Что-то ещё?
+      description: Mockups, screenshots, links to similar apps. / Наброски, скриншоты, похожие программы.

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question / Вопрос
+    url: https://github.com/zemidala/NetPulse-releases/discussions/categories/q-a
+    about: Ask how to use NetPulse in Discussions. / Задайте вопрос об использовании в Discussions.
+  - name: Idea to discuss / Идея для обсуждения
+    url: https://github.com/zemidala/NetPulse-releases/discussions/categories/ideas
+    about: Share an idea before filing a feature request. / Обсудите идею до оформления предложения.
+  - name: Download NetPulse / Скачать NetPulse
+    url: https://github.com/zemidala/NetPulse-releases/releases/latest
+    about: The latest version. / Последняя версия.

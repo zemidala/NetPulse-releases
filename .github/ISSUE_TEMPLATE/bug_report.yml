@@ -1,0 +1,73 @@
+name: Bug report / Ошибка
+description: Something does not work as expected. / Что-то работает не так.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please fill in the fields below — in English or Russian.
+        Спасибо за сообщение! Заполните поля ниже — можно на русском.
+  - type: input
+    id: version
+    attributes:
+      label: NetPulse version / Версия
+      description: Settings → About (bottom of the page). / Настройки → раздел внизу страницы.
+      placeholder: "0.2.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows
+      options:
+        - Windows 11
+        - Windows 10
+        - Other / Другая
+    validations:
+      required: true
+  - type: dropdown
+    id: layout
+    attributes:
+      label: Layout / Шаблон
+      options:
+        - A · Fluent
+        - B · Focus
+        - C · Pulse
+        - Not related to a layout / Не зависит от шаблона
+  - type: dropdown
+    id: connection
+    attributes:
+      label: Connection / Подключение
+      options:
+        - Ethernet
+        - Wi-Fi
+        - Mobile / Мобильная сеть
+        - VPN
+        - Other / Другое
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened? / Что случилось?
+      description: What did you expect and what happened instead? / Что ожидали и что произошло на самом деле?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / Как повторить
+      placeholder: |
+        1. ...
+        2. ...
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log / Журнал
+      description: |
+        If the app crashed, attach `%APPDATA%\NetPulse\logs\crash.log`. Event logs are in the same folder.
+        Если программа упала, приложите `%APPDATA%\NetPulse\logs\crash.log`. Журналы событий лежат там же.
+      render: text
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / Скриншоты
+      description: Drag images here. Hide IP addresses if you prefer. / Перетащите картинки сюда. IP-адреса можно скрыть.
