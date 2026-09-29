@@ -35,7 +35,10 @@ English and Russian interface · Русский интерфейс — [see belo
 
 ## Feedback
 
-Found a bug or have an idea? [Open an issue](https://github.com/zemidala/NetPulse-releases/issues).
+- 🐞 Found a bug or want a feature? [Open an issue](https://github.com/zemidala/NetPulse-releases/issues/new/choose).
+- 💬 Questions, ideas, your setups — [Discussions](https://github.com/zemidala/NetPulse-releases/discussions).
+
+English or Russian — both are fine.
 
 ---
 
@@ -61,3 +64,5 @@ Found a bug or have an idea? [Open an issue](https://github.com/zemidala/NetPuls
 
 Установка: скачайте `NetPulse.exe` и запустите. Программа пока не подписана цифровой подписью, поэтому
 Windows SmartScreen может показать предупреждение: нажмите **Подробнее → Выполнить в любом случае**.
+
+Нашли ошибку — [создайте issue](https://github.com/zemidala/NetPulse-releases/issues/new/choose); вопросы и идеи — в [Discussions](https://github.com/zemidala/NetPulse-releases/discussions).
