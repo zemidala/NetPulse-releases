@@ -4,7 +4,7 @@
 latency chart, detects outages, packet loss and lag spikes, and tells you *where* the problem is:
 your router, your provider or DNS.
 
-**[⬇ Download the latest version](https://github.com/zemidala/NetPulse-releases/releases/latest)** — a single `NetPulse.exe`, no installation and no .NET required.
+**[⬇ Download the latest version](https://github.com/zemidala/NetPulse-releases/releases/latest)**: take `NetPulse-<version>-win-x64.zip`, unzip and run `NetPulse.exe`. No installation and no .NET required.
 
 English and Russian interface · Русский интерфейс — [see below](#русский)
 
@@ -29,9 +29,12 @@ English and Russian interface · Русский интерфейс — [see belo
 
 ## Install
 
-1. Download `NetPulse.exe` from [Releases](https://github.com/zemidala/NetPulse-releases/releases/latest).
-2. Run it. The app is not code-signed yet, so Windows SmartScreen may warn you: click **More info → Run anyway**.
-3. Settings are stored in `%APPDATA%\NetPulse`. To uninstall, delete the exe and that folder.
+1. Download `NetPulse-<version>-win-x64.zip` from [Releases](https://github.com/zemidala/NetPulse-releases/releases/latest) and unzip it to any folder.
+2. Run `NetPulse.exe`. The app is not code-signed yet, so Windows SmartScreen may warn you: click **More info → Run anyway**.
+3. To update, exit NetPulse and replace `NetPulse.exe` with the new one (the bare exe is attached to every release too). Settings stay.
+4. Settings are stored in `%APPDATA%\NetPulse`. To uninstall, delete the exe and that folder.
+
+The *Source code (zip / tar.gz)* links on a release are added by GitHub automatically. NetPulse is closed source, so they contain only this README, not the program.
 
 ## Feedback
 
@@ -48,7 +51,7 @@ English or Russian — both are fine.
 график задержки, находит обрывы, потери пакетов и скачки пинга и показывает, *где* проблема:
 в роутере, у провайдера или в DNS.
 
-**[⬇ Скачать последнюю версию](https://github.com/zemidala/NetPulse-releases/releases/latest)** — один файл `NetPulse.exe`, без установки, .NET не нужен.
+**[⬇ Скачать последнюю версию](https://github.com/zemidala/NetPulse-releases/releases/latest)**: возьмите `NetPulse-<версия>-win-x64.zip`, распакуйте и запустите `NetPulse.exe`. Без установки, .NET не нужен.
 Язык интерфейса переключается в **Settings → Appearance → Language → Русский**.
 
 Возможности:
@@ -62,7 +65,9 @@ English or Russian — both are fine.
 - оверлей поверх окон с текущим пингом и тем же графиком, что в главном окне (прилипает к краям экрана), значок в трее, уведомления, автозапуск;
 - журнал событий в CSV и экспорт замеров в Excel.
 
-Установка: скачайте `NetPulse.exe` и запустите. Программа пока не подписана цифровой подписью, поэтому
-Windows SmartScreen может показать предупреждение: нажмите **Подробнее → Выполнить в любом случае**.
+Установка: скачайте архив `NetPulse-<версия>-win-x64.zip`, распакуйте в любую папку и запустите `NetPulse.exe`. Программа пока
+не подписана цифровой подписью, поэтому Windows SmartScreen может показать предупреждение: нажмите **Подробнее → Выполнить в любом случае**.
+Обновление: выйдите из NetPulse и замените `NetPulse.exe` новым, настройки сохранятся. Архивы *Source code* в релизе GitHub добавляет
+сам, программы в них нет.
 
 Нашли ошибку — [создайте issue](https://github.com/zemidala/NetPulse-releases/issues/new/choose); вопросы и идеи — в [Discussions](https://github.com/zemidala/NetPulse-releases/discussions).
