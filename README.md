@@ -12,13 +12,13 @@ English and Russian interface · Русский интерфейс — [see belo
 
 ## Features
 
-- **Live latency chart** of several targets at once (Google DNS, Cloudflare, Yandex DNS and your router by default; add your own).
+- **Live latency chart** of several targets at once (Google DNS, Cloudflare, Yandex DNS and your router by default; add your own). Pick how it looks: line, area, steps, stems, bars, range band, SmokePing-style smoke, dots or a heatmap; add spike labels, a logarithmic scale or good / bad zones.
 - **Outage detection**: N lost pings in a row start an outage, M replies end it; each outage is logged with its duration.
 - **Connection quality** from the ITU-T E-model: R-factor and MOS, plus jitter, P95 and loss.
 - **Where is the problem?** The “PC → router → provider → internet → DNS” path highlights the failing link.
 - **DNS check** with a direct query to your DNS server, bypassing the Windows cache.
 - **Three layouts** switchable on the fly: *Fluent* (Windows 11 style), *Focus* (large figures and an availability map), *Pulse* (gaming style with one bar per ping).
-- **In-game overlay**: a small always-on-top window with your current ping.
+- **Overlay**: an always-on-top window with the current ping and the same chart as the main window. Resize it by the corner; it sticks to screen edges.
 - **Tray icon** colored by network state, notifications on outages and recovery, start with Windows.
 - **Event log** in CSV, export of all measurements to Excel.
 - Light and dark themes, update check.
@@ -53,13 +53,13 @@ English or Russian — both are fine.
 
 Возможности:
 
-- живой график задержки нескольких целей сразу;
+- живой график задержки нескольких целей сразу, девять видов на выбор (линия, заливка, столбики, «дым» как в SmokePing, точки, тепловая карта и другие), подписи пиков, логарифмическая шкала, зоны «хорошо / плохо»;
 - обнаружение обрывов с длительностью и числом потерянных пакетов;
 - оценка качества связи по E-model (R-фактор, MOS), джиттер, P95, потери;
 - цепочка «ПК → роутер → провайдер → интернет → DNS» с подсветкой проблемного звена;
 - проверка DNS прямым запросом в обход кэша Windows;
 - три шаблона экрана: Fluent, Focus и игровой Pulse;
-- оверлей поверх игр, значок в трее, уведомления, автозапуск;
+- оверлей поверх окон с текущим пингом и тем же графиком, что в главном окне (прилипает к краям экрана), значок в трее, уведомления, автозапуск;
 - журнал событий в CSV и экспорт замеров в Excel.
 
 Установка: скачайте `NetPulse.exe` и запустите. Программа пока не подписана цифровой подписью, поэтому
